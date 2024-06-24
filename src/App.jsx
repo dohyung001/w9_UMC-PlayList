@@ -1,17 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
-import InputTodo from './componenets/InputTodo'
-import TodoList from './componenets/TodoList'
 
+import HeadBar from './componenets/Headbar'
+import Footer from './componenets/Footer'
+import MusicList from './componenets/MusicList'
 function App() {
 
   return (
     <>
-      <InputTodo />
-      <TodoList />
+      <HeadBar />
+      <MusicList />
+      <Footer />
     </>
   )
 }
